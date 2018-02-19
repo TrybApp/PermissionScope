@@ -33,7 +33,7 @@ class ViewController: UIViewController {
 //        multiPscope.addPermission(BluetoothPermission(), message: "We use this to drain your battery")
 
         noUIPscope.addPermission(NotificationsPermission(notificationCategories: nil), message: "notifications")
-        noUIPscope.addPermission(MicrophonePermission(), message: "microphone")
+//        noUIPscope.addPermission(MicrophonePermission(), message: "microphone")
         noUIPscope.onAuthChange = {
             (finished, results) in
             print("auth change",finished,results)

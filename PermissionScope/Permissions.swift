@@ -12,8 +12,8 @@ import AddressBook
 import AVFoundation
 import Photos
 import EventKit
-import CoreBluetooth
-import CoreMotion
+//import CoreBluetooth
+//import CoreMotion
 import CloudKit
 import Accounts
 
@@ -53,9 +53,9 @@ public typealias requestPermissionShowAlert     = (PermissionType) -> Void
     public let type: PermissionType = .events
 }
 
-@objc public class MicrophonePermission: NSObject, Permission {
-    public let type: PermissionType = .microphone
-}
+//@objc public class MicrophonePermission: NSObject, Permission {
+//    public let type: PermissionType = .microphone
+//}
 
 @objc public class CameraPermission: NSObject, Permission {
     public let type: PermissionType = .camera
@@ -69,10 +69,11 @@ public typealias requestPermissionShowAlert     = (PermissionType) -> Void
     public let type: PermissionType = .reminders
 }
 
-@objc public class BluetoothPermission: NSObject, Permission {
-    public let type: PermissionType = .bluetooth
-}
+//@objc public class BluetoothPermission: NSObject, Permission {
+//    public let type: PermissionType = .bluetooth
+//}
 
-@objc public class MotionPermission: NSObject, Permission {
-    public let type: PermissionType = .motion
-}
+//@objc public class MotionPermission: NSObject, Permission {
+//    public let type: PermissionType = .motion
+//}
+

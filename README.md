@@ -1,3 +1,5 @@
+## This is a modified version of PermissionScope that removes support for bluetooth, microphone, and motion permissions in order to support building for iOS 10 and 11 when one [does not use those permissions](https://github.com/nickoneill/PermissionScope/issues/194). Feel free to use this if your app does not need those 3 permissions, it will work on iOS 10 and 11!
+
 ## PermissionScope is no longer supported. Please use an alternative if you need updates for newer iOS 10 and 11 APIs!
 
 <p align="center">
